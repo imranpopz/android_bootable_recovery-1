@@ -147,6 +147,7 @@ public:
 #endif
 	static void List_Mounts();
 	static void Clear_Bootloader_Message();
+	static bool Check_Xml_Format(const std::string filename); // Return whether a xml is in plain xml or ABX format
 
 private:
 	static void Copy_Log(string Source, string Destination);
